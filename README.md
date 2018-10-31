@@ -1,7 +1,7 @@
 # BlockBusterz Assets Unity3D
 
 
-Block Busterz is a 2017 box-busting arcade puzzle video game designed for one player.
+Block Busterz is a 2017 block-busting arcade puzzle video game designed for one player.
 Initial concept based off of snake vs blocks combined mixed with bubble shooter styled games.
 
 Check out Block Busterz on iTunes app store:
