@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{1746AA35-8F6B-1108-7E2A-7B1EBADFFC37}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_10;UNITY_2018_2;UNITY_2018;UNITY_PURCHASING;UNITY_ANALYTICS;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNING;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR;ENABLE_MONO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityVersion>2018.2.10f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Users\parke\OneDrive\Desktop\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Users\parke\OneDrive\Desktop\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Facebook\Scripts\AccessToken.cs" />
+    <Compile Include="Assets\Facebook\Scripts\AppEventName.cs" />
+    <Compile Include="Assets\Facebook\Scripts\AppEventParameterName.cs" />
+    <Compile Include="Assets\Facebook\Scripts\CallbackManager.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebook.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebookGameObject.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebookLoader.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebook.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebookCallbackHandler.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebookImplementation.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Canvas\JsBridge.cs" />
+    <Compile Include="Assets\Facebook\Scripts\ComponentFactory.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Constants.cs" />
+    <Compile Include="Assets\Facebook\Scripts\FacebookBase.cs" />
+    <Compile Include="Assets\Facebook\Scripts\FacebookGameObject.cs" />
+    <Compile Include="Assets\Facebook\Scripts\FacebookSdkVersion.cs" />
+    <Compile Include="Assets\Facebook\Scripts\FacebookSettings.cs" />
+    <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+    <Compile Include="Assets\Facebook\Scripts\IFacebook.cs" />
+    <Compile Include="Assets\Facebook\Scripts\IFacebookCallbackHandler.cs" />
+    <Compile Include="Assets\Facebook\Scripts\IFacebookImplementation.cs" />
+    <Compile Include="Assets\Facebook\Scripts\MethodArguments.cs" />
+    <Compile Include="Assets\Facebook\Scripts\MethodCall.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebook.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebookGameObject.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebookLoader.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\Android\FBJavaClass.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\Android\IAndroidJavaClass.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebook.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebookCallbackHandler.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebookImplementation.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebook.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebookGameObject.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebookLoader.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\MobileFacebook.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Mobile\MobileFacebookGameObject.cs" />
+    <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+    <Compile Include="Assets\Facebook\Scripts\OGActionType.cs" />
+    <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebook.cs" />
+    <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookGameObject.cs" />
+    <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookLoader.cs" />
+    <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookMockDialog.cs" />
+    <Compile Include="Assets\Facebook\Scripts\PlatformEditor\MockDialogs\EmptyMockDialog.cs" />
+    <Compile Include="Assets\Facebook\Scripts\PlatformEditor\MockDialogs\MockLoginDialog.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\AppInviteResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\AppLinkResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\AppReqeustResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\GraphResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\GroupCreateResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\GroupJoinResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IAppInviteResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IAppLinkResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IAppRequestResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IGraphResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IGroupCreateResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IGroupJoinResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IInternalResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\ILoginResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IPayResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\IShareResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\LoginResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\PayResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\ResultBase.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Results\ShareResult.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Utils\AsyncRequestString.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Utils\FacebookLogger.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Utils\HttpMethod.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Utils\IFacebookLogger.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Utils\MiniJson.cs" />
+    <Compile Include="Assets\Facebook\Scripts\Utils\Utilities.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendBusinessEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendDesignEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendProgressionEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendResourceEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SetBirthYear.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SetCustomDimension.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SetFacebookID.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SetGender.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Enums.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Business.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Debug.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Design.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Error.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Progression.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Resource.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Setup.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_SpecialEvents.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GAValidator.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\GameAnalytics.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Setup\Settings.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\State\GAState.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Utilities\GA_MiniJson.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_AndroidWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_iOSWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_MonoWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_TizenWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_tvOSWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_WebGLWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_Wrapper.cs" />
+    <Compile Include="Assets\Scripts (block buster)\Ball.cs" />
+    <Compile Include="Assets\Scripts (block buster)\BlackBarrierAnimations.cs" />
+    <Compile Include="Assets\Scripts (block buster)\Block.cs" />
+    <Compile Include="Assets\Scripts (block buster)\BlockSpawner.cs" />
+    <Compile Include="Assets\Scripts (block buster)\BoundryScript.cs" />
+    <Compile Include="Assets\Scripts (block buster)\Coin.cs" />
+    <Compile Include="Assets\Scripts (block buster)\GameCenter.cs" />
+    <Compile Include="Assets\Scripts (block buster)\GameManager.cs" />
+    <Compile Include="Assets\Scripts (block buster)\IAPManager.cs" />
+    <Compile Include="Assets\Scripts (block buster)\Language.cs" />
+    <Compile Include="Assets\Scripts (block buster)\MainMenuManager.cs" />
+    <Compile Include="Assets\Scripts (block buster)\MoveDown.cs" />
+    <Compile Include="Assets\Scripts (block buster)\Orbit.cs" />
+    <Compile Include="Assets\Scripts (block buster)\PlayAd.cs" />
+    <Compile Include="Assets\Scripts (block buster)\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts (block buster)\SetColor.cs" />
+    <Compile Include="Assets\SimpleLangLocal\Demo\GUITest.cs" />
+    <Compile Include="Assets\SimpleLangLocal\Scripts\LocalizationManager.cs" />
+    <None Include="Assets\SimpleLangLocal\Prefab\LangFile.xml" />
+    <None Include="Assets\GameAnalytics\Readme.txt" />
+    <None Include="Assets\Facebook\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudWebServicesModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FacebookModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Unity Projects/Unity Projects/My Games/Block Buster/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/parke/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/parke/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/parke/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:/Users/parke/OneDrive/Desktop/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D201027E-2C6A-4052-D244-EFBEE778EAE3}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

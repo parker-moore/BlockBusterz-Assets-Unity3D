@@ -1,0 +1,273 @@
+<Data>
+  <EN Key = "Hello"	Word = "Hello"/>
+  <EN Key = "Start"	Word = "Start"/>
+  <EN Key = "Options"	Word = "Options"/>
+  <EN Key = "Back"	Word = "Back"/>
+  <EN Key = "Last Score"	Word = "Last Score"/>
+  <EN Key = "High Score"	Word = "High Score"/>
+  <EN Key = "Turrets"	Word = "Turrets"/>
+  <EN Key = "Health"	Word = "Health"/>
+  <EN Key = "Difficulty"	Word = "Difficulty"/>
+  <EN Key = "Time"	Word = "Time"/>
+  <EN Key = "Score"	Word = "Score"/>
+  <EN Key = "Distance: 0m" Word = "Distance: 0m"/>
+  <EN Key = "How To Play" Word = "How To Play"/>
+  <EN Key = "Credits" Word = "Credits"/>
+  <EN Key = "Sound Effects" Word = "Sound Effects"/>
+  <EN Key = "Character Selection" Word = "Character Selection"/>
+  <EN Key = "Coins" Word = "Coins"/>
+  <EN Key = "Pause" Word = "Pause"/>
+  <EN Key = "Extra Jumps" Word = "Extra Jumps"/>
+  <EN Key = "TAP ANYWHERE TO JUMP" Word = "TAP ANYWHERE TO JUMP"/>
+  <EN Key = "SWIPE LEFT TO BACKFLIP" Word = "SWIPE LEFT TO BACKFLIP"/>
+  <EN Key = "SWIPE RIGHT TO FRONTFLIP" Word = "SWIPE RIGHT TO FRONTFLIP"/>
+  <EN Key = "Sound" Word = "Sound"/>
+  <EN Key = "Support Email" Word = "Support Email"/>
+  <EN Key = "Language" Word = "Language"/>
+  <EN Key = "Game Over" Word = "Game Over"/>
+  <EN Key ="Tools" Word ="Tools"/>
+  <EN Key ="Instagram:" Word ="Instagram:"/>
+  <EN Key ="Created By:" Word ="Created By:"/>
+  <EN Key ="Select a Language" Word = "Select a Language"/>
+  <EN Key ="Music" Word ="Music"/>
+  <EN Key ="FaceBook LogIn" Word ="FaceBook LogIn"/>
+  <EN Key ="FaceBook LogOut" Word ="FaceBook LogOut"/>
+  <EN Key ="Distance" Word ="Distance"/>
+  <EN Key ="Highscore" Word ="Highscore"/>
+  <EN Key ="Coming Soon" Word ="Coming Soon"/>
+  <EN Key ="Unlock Characters to Gain Extra Jumps!" Word ="Unlock Characters to Gain Extra Jumps!"/>
+  <EN Key ="Ad." Word ="Ad."/>
+  <EN Key ="Loading..." Word ="Loading..."/>
+  <EN Key ="Could Not Load" Word ="Could Not Load"/>
+  <EN Key ="Watch ad. for coins!!" Word ="Watch ad. for coins!!"/>
+  <EN Key ="Share for coins!!" Word ="Share for coins!!"/>
+  <EN Key ="Tap to Play" Word ="Tap to Play"/>
+  <EN Key ="Best score:" Word ="Best score:"/>
+  <EN Key ="Shop" Word ="Shop"/>
+
+
+
+  <ES Key = "Hello"	Word = "Hola"/>
+  <ES Key = "Start"	Word = "Empezar"/>
+  <ES Key = "Options"	Word = "Opciones"/>
+  <ES Key = "Back"	Word = "Volver"/>
+  <ES Key = "Last Score"	Word = "Nuevo Resultado"/>
+  <ES Key = "High Score"	Word = "Alto Resultado"/>
+  <ES Key = "Turrets"	Word = "Torretas"/>
+  <ES Key = "Health"	Word = "Vitalidad"/>
+  <ES Key = "Difficulty"	Word = "Dificultad"/>
+  <ES Key = "Time"	Word = "Tiempo"/>
+  <ES Key = "Score"	Word = "Resultado"/>
+  <ES Key = "Credits" Word = "Créditos"/>
+  <ES Key = "How To Play" Word = "Cómo jugar"/>
+  <ES Key = "Sound" Word = "Sonar"/>
+  <ES Key = "Language" Word = "Idioma"/>
+  <ES Key = "Support Email" Word ="Email de Soporte"/>
+  <ES Key ="TAP ANYWHERE TO JUMP" Word ="Toque para Saltar"/>
+  <ES Key = "SWIPE LEFT TO BACKFLIP" Word = "Desliza el dedo hacia la izquierda para retroceder"/>
+  <ES Key = "SWIPE RIGHT TO FRONTFLIP" Word = "Deslizar hacia la derecha para girar hacia adelante"/>
+  <ES Key = "Extra Jumps" Word ="Saltos Extras"/>
+  <ES Key ="Pause" Word ="Pausa"/>
+  <ES Key = "Distance: 0m" Word ="Distancia: 0m"/>
+  <ES Key ="Coins" Word ="Monedas"/>
+  <ES Key ="Character Selection" Word ="Selección de Personajes"/>
+  <ES Key = "Game Over" Word = "Juego Terminado"/>
+  <ES Key ="Tools" Word ="Herramientas"/>
+  <ES Key ="Instagram:" Word ="Instagram:"/>
+  <ES Key ="Sound Effects" Word ="Efectos de Sonido"/>
+  <ES Key ="Created By:" Word ="Creado Por:"/>
+  <ES Key ="Select a Language" Word = "Selecciona un Idioma"/>
+  <ES Key ="Music" Word = "Música"/>
+  <ES Key ="FaceBook LogIn" Word ="Entrar en Facebook"/>
+  <ES Key ="FaceBook LogOut" Word ="Facebook cierre de sesión"/>
+  <ES Key ="Distance" Word ="Distancia"/>
+  <ES Key ="Highscore" Word ="Puntuación más alta"/>
+  <ES Key ="Coming Soon" Word ="Pronto"/>
+  <ES Key ="Unlock Characters to Gain Extra Jumps!" Word ="Desbloquear Personajes para más Saltos"/>
+  <ES Key ="Ad." Word ="Anuncio"/>
+  <ES Key ="Loading..." Word ="Espere..."/>
+  <ES Key ="Could Not Load" Word ="No se puede Conectar"/>
+  <ES Key ="Watch ad. for coins!!" Word ="Anuncio!!"/>
+  <ES Key ="Share for coins!!" Word ="compartir para monedas!!"/>
+  <ES Key ="Tap to Play" Word ="Toca para Jugar"/>
+  <ES Key ="Best score:" Word ="Mejor puntuación:"/>
+  <ES Key ="Shop" Word ="Tienda"/>
+
+
+
+  <FR Key = "Hello"	Word = "Bonjour"/>
+  <FR Key = "Start"	Word = "Commencer"/>
+  <FR Key = "Options"	Word = "Options"/>
+  <FR Key = "Back"	Word = "Retour"/>
+  <FR Key = "Last Score"	Word = "Nouveau Résultat"/>
+  <FR Key = "High Score"	Word = "Meilleur Résultat"/>
+  <FR Key = "Turrets"	Word = "Tourelles"/>
+  <FR Key = "Health"	Word = "Vitalité"/>
+  <FR Key = "Difficulty"	Word = "Difficulté"/>
+  <FR Key = "Time"	Word = "Temps"/>
+  <FR Key = "Score"	Word = "Résultat"/>
+  <FR Key = "Distance: 0m" Word = "Distance: 0m"/>
+  <FR Key = "How To Play" Word = "Comment Jouer"/>
+  <FR Key = "Credits" Word = "Le Générique"/>
+  <FR Key = "Sound Effects" Word = "Le Bruitage"/>
+  <FR Key = "Character Selection" Word = "Sélection De Personnage"/>
+  <FR Key = "Coins" Word = "Pièces"/>
+  <FR Key = "Pause" Word = "Pause"/>
+  <FR Key = "Extra Jumps" Word = "Sauts Supplémentaires"/>
+  <FR Key = "TAP ANYWHERE TO JUMP" Word = "Tapez Pour Sauter"/>
+  <FR Key = "SWIPE LEFT TO BACKFLIP" Word = "Faites Glisser Vers La Gauche Pour Faire Pivoter Vers L'arrière"/>
+  <FR Key = "SWIPE RIGHT TO FRONTFLIP" Word = "Faites glisser vers l'avant pour faire pivoter vers l'avant"/>
+  <FR Key = "Sound" Word = "Son"/>
+  <FR Key = "Support Email" Word = "Email de Support"/>
+  <FR Key = "Language" Word = "Langue"/>
+  <FR Key = "Game Over" Word = "Jeu Terminé"/>
+  <FR Key = "Tools" Word ="Outils"/>
+  <FR Key = "Instagram:" Word ="Instagram"/>
+  <FR Key ="Created By:" Word ="Créé Par:"/>
+  <FR Key ="Select a Language" Word = "Sélectionnez une Langue"/>
+  <FR Key ="Music" Word = "Musique"/>
+  <FR Key ="FaceBook LogIn" Word ="Connexion à Facebook"/>
+  <FR Key ="FaceBook LogOut" Word ="Déconnexion de FaceBook"/>
+  <FR Key ="Distance" Word ="Distancia"/>
+  <FR Key ="Coming Soon" Word ="Bientôt"/>
+  <FR Key ="Unlock Characters to Gain Extra Jumps!" Word ="Débloquer des Personnages pour plus de Sauts"/>
+  <FR Key ="Ad." Word ="Publicité"/>
+  <FR Key ="Loading..." Word ="Attendez..."/>
+  <FR Key ="Could Not Load" Word ="Pas de connection"/>
+  <FR Key ="Watch ad. for coins!!" Word ="Regarder la vidéo pour les Pièces de monnaie!!"/>
+  <FR Key ="Share for coins!!" Word ="partager pour des pièces!!"/>
+  <FR Key ="Tap to Play" Word ="Appuyez pour Jouer"/>
+  <FR Key ="Best score:" Word ="Meilleur score:"/>
+  <FR Key ="Shop" Word ="Boutique"/>
+
+
+  <CN Key = "High Score"	Word = "高分"/>
+  <CN Key = "Score"	Word = "得分了"/>
+  <CN Key = "Credits" Word = "演职员字幕"/>
+  <CN Key = "How To Play" Word = "怎么玩"/>
+  <CN Key = "Sound" Word = "声音"/>
+  <CN Key = "Language" Word = "语言"/>
+  <CN Key = "Support Email" Word ="支持电子邮件"/>
+  <CN Key ="TAP ANYWHERE TO JUMP" Word ="点击跳"/>
+  <CN Key = "SWIPE LEFT TO BACKFLIP" Word = "向左滑动以翻转"/>
+  <CN Key = "SWIPE RIGHT TO FRONTFLIP" Word = "向右滑动以翻转"/>
+  <CN Key = "Extra Jumps" Word ="额外跳"/>
+  <CN Key ="Pause" Word ="时间到"/>
+  <CN Key = "Distance: 0m" Word ="距离: 0m"/>
+  <CN Key ="Coins" Word ="硬币"/>
+  <CN Key ="Character Selection" Word ="字符选择"/>
+  <CN Key = "Game Over" Word = "游戏结束"/>
+  <CN Key ="Tools" Word ="工具"/>
+  <CN Key ="Instagram:" Word ="Instagram的:"/>
+  <CN Key ="Sound Effects" Word ="声音特效"/>
+  <CN Key ="Created By:" Word ="由...制作:"/>
+  <CN Key ="Select a Language" Word ="选择一种语言"/>
+  <CN Key ="Music" Word ="音乐"/>
+  <CN Key ="FaceBook LogIn" Word ="登录Facebook"/>
+  <CN Key ="FaceBook LogOut" Word ="FaceBook注销"/>
+  <CN Key ="Distance" Word ="距"/>
+  <CN Key ="Highscore" Word ="高分"/>
+  <CN Key ="Coming Soon" Word ="不久"/>
+  <CN Key ="Unlock Characters to Gain Extra Jumps!" Word ="解锁字符进行更多跳转"/>
+  <CN Key ="Ad." Word ="广告"/>
+  <CN Key ="Loading..." Word ="等待..."/>
+  <CN Key ="Could Not Load" Word ="无连接"/>
+  <CN Key ="Watch ad. for coins!!" Word ="想要一枚硬币"/>
+  <CN Key ="Share for coins!!" Word ="接收硬币"/>
+  <CN Key ="Tap to Play" Word ="点击播放"/>
+  <CN Key ="Best score:" Word ="最佳得分:"/>
+  <CN Key ="Shop" Word ="店"/>
+
+
+
+  <JP Key = "High Score"	Word = "高得点"/>
+  <JP Key = "Score"	Word = "得点"/>
+  <JP Key = "Credits" Word = "エンドクレジット"/>
+  <JP Key = "How To Play" Word = "遊び方"/>
+  <JP Key = "Sound" Word = "音"/>
+  <JP Key = "Language" Word = "言語"/>
+  <JP Key = "Support Email" Word ="電子メイル"/>
+  <JP Key ="TAP ANYWHERE TO JUMP" Word ="クリックしてジャンプする"/>
+  <JP Key = "SWIPE LEFT TO BACKFLIP" Word = "左にスワイプしてフリップする"/>
+  <JP Key = "SWIPE RIGHT TO FRONTFLIP" Word = "右にスワイプしてフリップする"/>
+  <JP Key = "Extra Jumps" Word ="余分なジャンプ"/>
+  <JP Key ="Pause" Word ="ポーズ"/>
+  <JP Key = "Distance: 0m" Word ="距離: 0m"/>
+  <JP Key ="Coins" Word ="コイン"/>
+  <JP Key ="Character Selection" Word ="文字の選択"/>
+  <JP Key = "Game Over" Word = "ゲームオーバー"/>
+  <JP Key ="Tools" Word ="ツール"/>
+  <JP Key ="Instagram:" Word ="インスタグラム:"/>
+  <JP Key ="Sound Effects" Word ="音響効果"/>
+  <JP Key ="Created By:" Word ="によって作成された:"/>
+  <JP Key ="Select a Language" Word ="言語を選択する"/>
+  <JP Key ="Music" Word ="音楽"/>
+  <JP Key ="FaceBook LogIn" Word ="Facebookのログイン"/>
+  <JP Key ="FaceBook LogOut" Word ="Facebookのログアウト"/>
+  <JP Key ="Distance" Word ="距離"/>
+  <JP Key ="Highscore" Word ="高得点"/>
+  <JP Key ="Coming Soon" Word ="すぐに"/>
+  <JP Key ="Unlock Characters to Gain Extra Jumps!" Word ="より多くのジャンプのための文字のロックを解除する"/>
+  <JP Key ="Ad." Word ="広告"/>
+  <JP Key ="Loading..." Word ="待つ..."/>
+  <JP Key ="Could Not Load" Word ="接続なし"/>
+  <JP Key ="Watch ad. for coins!!" Word ="より多くのコイン"/>
+  <JP Key ="Share for coins!!" Word ="コインを受け取る"/>
+  <JP Key ="Tap to Play" Word ="タップして再生する"/>
+  <JP Key ="Best score:" Word ="最高のスコア:"/>
+  <JP Key ="Shop" Word ="ショップ"/>
+
+
+
+  <IT Key = "High Score"	Word = "Punteggio Alto"/>
+  <IT Key = "Score"	Word = "Punto"/>
+  <IT Key = "Credits" Word = "Titoli Di Coda"/>
+  <IT Key = "How To Play" Word = "Come Giocare"/>
+  <IT Key = "Sound" Word = "Suono"/>
+  <IT Key = "Language" Word = "Lingua"/>
+  <IT Key = "Support Email" Word ="Supporto Email"/>
+  <IT Key ="TAP ANYWHERE TO JUMP" Word ="Toccare per Saltare"/>
+  <IT Key = "SWIPE LEFT TO BACKFLIP" Word = "Spostare a Sinistra per Flip"/>
+  <IT Key = "SWIPE RIGHT TO FRONTFLIP" Word = "Spostare a Destra per Flip"/>
+  <IT Key = "Extra Jumps" Word ="Salti Extra"/>
+  <IT Key ="Pause" Word ="Pausa"/>
+  <IT Key = "Distance: 0m" Word ="Distanza: 0m"/>
+  <IT Key ="Coins" Word ="Monete"/>
+  <IT Key ="Character Selection" Word ="Selezione dei Caratteri"/>
+  <IT Key = "Game Over" Word = "Gioco Finito"/>
+  <IT Key ="Tools" Word ="Utensili"/>
+  <IT Key ="Instagram:" Word ="Instagram:"/>
+  <IT Key ="Sound Effects" Word ="Effetti Sonori"/>
+  <IT Key ="Created By:" Word ="Creato Da:"/>
+  <IT Key ="Select a Language" Word ="Selezionare una Lingua"/>
+  <IT Key ="Music" Word ="Musica"/>
+  <IT Key ="FaceBook LogIn" Word ="FaceBook LogIn"/>
+  <IT Key ="FaceBook LogOut" Word ="FaceBook LogOut"/>
+  <IT Key ="Distance" Word ="Distanza"/>
+  <IT Key ="Highscore" Word ="Punteggio Alto"/>
+  <IT Key ="Coming Soon" Word ="Presto"/>
+  <IT Key ="Unlock Characters to Gain Extra Jumps!" Word ="より多くのジャンプのための文字のロックを解除する"/>
+  <IT Key ="Ad." Word ="Anno Domini"/>
+  <IT Key ="Loading..." Word ="Aspettare..."/>
+  <IT Key ="Could Not Load" Word ="Nessuna Connessione"/>
+  <IT Key ="Watch ad. for coins!!" Word ="Guardare Pubblicità per Monete"/>
+  <IT Key ="Share for coins!!" Word ="condividere per monete"/>
+  <IT Key ="Tap to Play" Word ="Tocca per Giocare"/>
+  <IT Key ="Best score:" Word ="Miglior punteggio:"/>
+  <IT Key ="Shop" Word ="Negozio"/>
+
+
+  <GM Key ="Tap to Play" Word ="Zum Spielen antippen"/>
+  <GM Key ="Language" Word ="Sprache"/>
+  <GM Key ="Best score:" Word ="Bestes ergebnis:"/>
+  <GM Key ="Shop" Word ="Kaufen"/>
+
+
+  <DU Key ="Language" Word ="Taal"/>
+  <DU Key ="Tap to Play" Word ="Tap om te Spelen"/>
+  <DU Key ="Best score:" Word ="Beste score:"/>
+  <DU Key ="Shop" Word ="Kopen"/>
+
+
+
+</Data>
