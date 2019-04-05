@@ -7,5 +7,5 @@ Initial concept based off of snake vs blocks mixed with bubble shooter.
 Check out Block Busterz on iTunes app store:
 https://itunes.apple.com/us/app/block-busterz/id1351484049?mt=8
 
-![](blockbusterz.gif)
+![](blockbusterz.gif.gif)
 
